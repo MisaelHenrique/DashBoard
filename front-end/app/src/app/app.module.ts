@@ -9,6 +9,7 @@ import { ToolbarComponent } from './core/components/toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { FormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     MaterialModule,
     ComponentsModule,
-
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
